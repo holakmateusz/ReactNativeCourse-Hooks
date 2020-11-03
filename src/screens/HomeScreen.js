@@ -8,7 +8,7 @@ const HomeScreen = ({ navigation }) => {
       <View style={styles.buttonsContainer}>
         <Button
           title="Go to List Screen"
-          onPress={() => navigation.navigate("ListScreen")}
+          onPress={() => navigation.navigate("List")}
         />
         <Button
           title="Go to Component Screen"
@@ -16,11 +16,15 @@ const HomeScreen = ({ navigation }) => {
         />
         <Button
           title="Go to Image Screen"
-          onPress={() => navigation.navigate("ImageScreen")}
+          onPress={() => navigation.navigate("Image")}
         />
         <Button
           title="Go to Counter Screen"
-          onPress={() => navigation.navigate("CounterScreen")}
+          onPress={() => navigation.navigate("Counter")}
+        />
+        <Button
+          title="Go to Color Screen"
+          onPress={() => navigation.navigate("Color")}
         />
       </View>
     </View>
